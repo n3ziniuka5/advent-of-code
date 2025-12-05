@@ -3,8 +3,6 @@ package aoc
 import aoc.Common.timed
 
 object Day4:
-    case class Range(from: Long, to: Long)
-
     def main(args: Array[String]): Unit =
         val lines = InputUtils.fetchInput(2025, 4)
         timed("Part 1", part1(lines))
